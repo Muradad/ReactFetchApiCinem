@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --main-font: 'Roboto Condensed', sans-serif;
+  --light-orange-color: #fbbd61;
+  --light-border-color: rgba(211, 211, 211, 0.2);
+  --dark-border-color: rgba(211, 211, 211, 0.5);
+  --dark-orange-color: #ec7532;
+
+
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
